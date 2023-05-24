@@ -37,7 +37,7 @@ const Navbar = () => {
         <div>
           <div className="flex items-center justify-between py-3">
             <div className="md:py-5 md:block">
-              <h2 className="font-bold text-3xl">SKD</h2>
+              <h2 className="font-bold text-3xl">SKD⚛</h2>
             </div>
             <div className="md:hidden">
               <button onClick={() => setNavbar(!navbar)}>
