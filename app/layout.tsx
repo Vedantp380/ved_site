@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="dark:bg-stone-900">
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}
@@ -34,3 +34,4 @@ export default function RootLayout({
 //please shoot the video by increasing the font-size, it' hard to follow your tuitorial.
 //please explain little about the used npm packages like next-theme
 //video quality is not good.
+//u missed to tell about dark mode of tailwind.
