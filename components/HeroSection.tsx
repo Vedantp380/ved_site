@@ -7,8 +7,8 @@ import { HiArrowDown } from "react-icons/hi"
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-36 md:flex-row md:space-x-4 md:text-left">
-        <div className="md:mt-2 md:w-1/2">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-6 py-16 sm:py-32 md:flex-row md:space-x-4 md:text-left">
+        <div className="md:mt-2 md:w-1/2 ">
           <Image
             src="/square.jpeg"
             alt="sawan"
@@ -17,11 +17,11 @@ const HeroSection = () => {
             className="rounded-full shadow-2xl"
           />
         </div>
-        <div className="md:mt-2 md:w-3/5">
-          <h1 className="font-bold text-3xl mt-6 md:mt-0 md:text-6xl">Hi, I&#39;m Sawan!</h1>
+        <div className="md:mt-2 md:w-3/5 md:pl-24 lg:pl-12 flex flex-col justify-center items-center md:items-start ">
+          <h1 className="font-bold text-3xl mt-6 md:mt-0 md:text-5xl">Hi, I&#39;m Sawan!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
-            <span className="font-semibold text-amber-400">
+            <span className="font-semibold text-amber-500">
               Software Engineer{" "}
             </span>
             based in Bengaluru, India. Working towards creating meaningful software that 
@@ -36,7 +36,7 @@ const HeroSection = () => {
             offset={-100}
             duration={500}
           >
-            Projects
+            Portfolio
           </Link>
         </div>
       </div>
