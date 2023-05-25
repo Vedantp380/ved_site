@@ -7,10 +7,10 @@ import { HiArrowDown } from "react-icons/hi"
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-36 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/shivGange.jpeg"
+            src="/square.jpeg"
             alt="sawan"
             width={325}
             height={200}
@@ -18,18 +18,18 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Sawan!</h1>
+          <h1 className="font-bold text-3xl mt-6 md:mt-0 md:text-6xl">Hi, I&#39;m Sawan!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
-            <span className="font-semibold text-teal-600">
+            <span className="font-semibold text-amber-400">
               Software Engineer{" "}
             </span>
-            based in Bengaluru, Karnataka. Working towards creating meaningful software that 
+            based in Bengaluru, India. Working towards creating meaningful software that 
             is meant for betterment of mankind.
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="text-neutral-100 shadow-2xl font-semibold flex justify-center items-center w-28 h-12 rounded-lg fancy-button"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -49,7 +49,7 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={35} className="animate-bounce" />
+          <HiArrowDown size={35} className="animate-bounce" fill="#fbbf24"/>
         </Link>
       </div>
     </section>
