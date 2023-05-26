@@ -21,14 +21,14 @@ const HeroSection = () => {
           <h1 className="font-bold text-3xl mt-6 md:mt-0 md:text-5xl">Hi, I&#39;m Sawan!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
-            <span className="font-semibold text-amber-500">
+            <span className="font-extrabold text-transparent w-max bg-[conic-gradient(from_var(--angle)_at_50%_100%,hsl(46deg_97%_65%),hsl(38deg_92%_50%),hsl(26deg_90%_37%),hsl(38deg_92%_50%),hsl(46deg_97%_65%))] animate-fancy bg-clip-text">
               Software Engineer{" "}
             </span>
             based in Bengaluru, India. Working towards creating meaningful software that 
             is meant for betterment of mankind.
           </p>
           <Link
-            to="projects"
+            to="portfolio"
             className="text-neutral-100 shadow-2xl font-semibold flex justify-center items-center w-28 h-12 rounded-lg fancy-button"
             activeClass="active"
             spy={true}

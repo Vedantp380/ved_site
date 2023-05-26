@@ -19,6 +19,7 @@ module.exports = {
         slideUp: "slideUp 0.5s",
         slideUpEaseInOut: "slideUp 0.5s ease-in-out",
         slideUpCubiBezier: "slideUp 1s cubic-bezier(0.165, 0.84, 0.44, 1)",
+        fancy: "fancy 6s infinite linear",
       },
       animationDelay: {
         0: "0s",
@@ -39,8 +40,16 @@ module.exports = {
           from: { transform: "translateY(10px)" },
           to: { transform: "translateY(0)" },
         },
+        fancy: {
+          from: {
+            "--angle": "0deg",
+          },
+          to: {
+            "--angle": "360deg",
+          },
+        },
       },
     },
   },
   plugins: [],
-}
+};

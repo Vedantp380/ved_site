@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 
@@ -16,6 +18,12 @@ const skills = [
 ];
 
 const AboutSection = () => {
+  const handleRedirect = () => {
+    window.open(
+      "https://pubs.rsc.org/en/content/articlehtml/2021/ra/d0ra10829d",
+      "_blank"
+    );
+  };
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
@@ -42,7 +50,13 @@ const AboutSection = () => {
               After completing my master&apos;s degree in Computational Physics
               from the Central University of Punjab, Bathinda, I delved into
               research on low-dimensional materials at CSIR-NCL, resulting in my
-              first published paper.
+              <span
+                className="underline hover:text-amber-500 cursor-pointer"
+                onClick={handleRedirect}
+              >
+                &nbsp;first published paper
+              </span>
+              .
             </p>
             <br />
             <p>
@@ -61,9 +75,9 @@ const AboutSection = () => {
               and <span className="font-bold text-amber-500">growing </span>
               which I strive to do. Outside of work, I explore new places,
               indulge in cooking traditional{" "}
-              <span className="text-amber-500 font-extrabold">ଓଡ଼ିଆ </span>(Odia)
-              cuisine, and engage in dynamic training activities. Join me on
-              this adventure! 😎
+              <span className="text-amber-500 font-extrabold">ଓଡ଼ିଆ </span>
+              (Odia) cuisine, and engage in dynamic training activities. Join me
+              on this adventure! 😎
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -82,7 +96,7 @@ const AboutSection = () => {
             </div>
             <Image
               src="/frontend_guy.png"
-              alt=""
+              alt="cartoon_vector"
               width={400}
               height={500}
               className="hidden md:block md:relative md:bottom-4 md:z-0 md:mt-8"
