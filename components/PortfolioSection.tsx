@@ -6,11 +6,10 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 const portfolios = [
   {
     name: "Enhanced photocatalytic properties of a chemically modified blue phosphorene",
-    description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
+    description: "This research explores sulphur-doped blue-phosphorene sheets for efficient water splitting, revealing promising catalysts with superior hydrogen evolution potential.",
     github: "",
-    link: "https://thankfulthoughts.io/",
+    image: "/phosphorene.JPG",
+    link: "https://pubs.rsc.org/en/content/articlehtml/2021/ra/d0ra10829d",
   },
   {
     name: "PlatoIO",
@@ -43,22 +42,21 @@ const PortfolioSection = () => {
             return (
               <div key={idx}>
                 <div className="flex flex-col md:flex-row md:space-x-12">
-                  <div className=" md:w-1/2">
+                  <div className="md:w-1/2 mb-5 md:mb-0">
                     <Link href={portfolio.link}>
                       <Image
-                        src={portfolio.image}
-                        alt=""
-                        width={400}
-                        height={300}
-                        className="rounded-xl shadow-xl hover:opacity-70"
+                        src={portfolio?.image}
+                        alt={portfolio?.name}
+                        width={450}
+                        height={450}
+                        style={{ width: '100%', height: '100%' }}
+                        className="rounded-xl shadow-xl hover:opacity-70 "
                       />
                     </Link>
                   </div>
-                  <div className=" md:w-1/2">
-                    <h1 className="text-2xl font-bold mb-6">
-                      {portfolio.name}
-                    </h1>
-                    <p className="text-lg leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
+                  <div className="md:w-1/2">
+                    <h1 className="text-xl font-bold mb-4">{portfolio.name}</h1>
+                    <p className=" text-sm leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {portfolio.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
