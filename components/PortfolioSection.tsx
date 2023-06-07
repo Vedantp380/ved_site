@@ -6,25 +6,26 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 const portfolios = [
   {
     name: "Enhanced photocatalytic properties of a chemically modified blue phosphorene",
-    description: "This research explores sulphur-doped blue-phosphorene sheets for efficient water splitting, revealing promising catalysts with superior hydrogen evolution potential.",
+    description:
+      "This research explores sulphur-doped blue-phosphorene sheets for efficient water splitting, revealing promising catalysts with superior hydrogen evolution potential.",
     github: "",
     image: "/phosphorene.JPG",
     link: "https://pubs.rsc.org/en/content/articlehtml/2021/ra/d0ra10829d",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Small Social Media",
+    description: "It is repo of small social media app built on top of redux.",
+    image: "/redux_post.JPG",
+    github: "https://github.com/ProPhycient5/redux_essential_official",
+    link: "https://redux-essential-official-sawan.vercel.app/",
   },
   {
-    name: "Kator Family Photos",
+    name: "Hacker-News-Clone",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "It is a clone of hacker news website integrated with open API.",
+    image: "/hacker-news-clone.gif",
+    github: "https://github.com/ProPhycient5/Hacker-News-Clone",
+    link: "https://hacker-news-clone-sawan.vercel.app/",
   },
 ];
 
@@ -44,14 +45,23 @@ const PortfolioSection = () => {
                 <div className="flex flex-col md:flex-row md:space-x-12">
                   <div className="md:w-1/2 mb-5 md:mb-0">
                     <Link href={portfolio.link}>
-                      <Image
-                        src={portfolio?.image}
-                        alt={portfolio?.name}
-                        width={450}
-                        height={450}
-                        style={{ width: '100%', height: '100%' }}
-                        className="rounded-xl shadow-xl hover:opacity-70 "
-                      />
+                      {portfolio?.image === "Hacker-News-Clone" ? (
+                        <img
+                          src={portfolio?.image}
+                          alt={portfolio?.name}
+                          width={450}
+                          height={500}
+                        />
+                      ) : (
+                        <Image
+                          src={portfolio?.image}
+                          alt={portfolio?.name}
+                          width={450}
+                          height={400}
+                          // style={{ width: '100%', height: '100%' }}
+                          className="rounded-xl shadow-lg hover:opacity-70 "
+                        />
+                      )}
                     </Link>
                   </div>
                   <div className="md:w-1/2">
