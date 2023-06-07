@@ -15,7 +15,7 @@ const portfolios = [
   {
     name: "Small Social Media",
     description: "It is repo of small social media app built on top of redux.",
-    image: "/redux_post.JPG",
+    image: "/small_social_media.JPG",
     github: "https://github.com/ProPhycient5/redux_essential_official",
     link: "https://redux-essential-official-sawan.vercel.app/",
   },
@@ -23,7 +23,7 @@ const portfolios = [
     name: "Hacker-News-Clone",
     description:
       "It is a clone of hacker news website integrated with open API.",
-    image: "/hacker-news-clone.gif",
+    image: "/my_gif.gif",
     github: "https://github.com/ProPhycient5/Hacker-News-Clone",
     link: "https://hacker-news-clone-sawan.vercel.app/",
   },
