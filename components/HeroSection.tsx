@@ -1,8 +1,8 @@
-"use client" // this is a client component
-import React from "react"
-import Image from "next/image"
-import { Link } from "react-scroll/modules"
-import { HiArrowDown } from "react-icons/hi"
+"use client"; // this is a client component
+import React from "react";
+import Image from "next/image";
+import { Link } from "react-scroll/modules";
+import { HiArrowDown } from "react-icons/hi";
 
 const HeroSection = () => {
   return (
@@ -18,14 +18,16 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5 md:pl-24 lg:pl-12 flex flex-col justify-center items-center md:items-start ">
-          <h1 className="font-bold text-3xl mt-6 md:mt-0 md:text-5xl">Hi, I&#39;m Sawan!</h1>
+          <h1 className="font-bold text-3xl mt-6 md:mt-0 md:text-5xl">
+            Hi, I&#39;m Sawan!
+          </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-extrabold text-transparent w-max bg-[conic-gradient(from_var(--angle)_at_50%_100%,hsl(46deg_97%_65%),hsl(38deg_92%_50%),hsl(26deg_90%_37%),hsl(38deg_92%_50%),hsl(46deg_97%_65%))] animate-fancy bg-clip-text">
               Software Engineer{" "}
             </span>
-            based in Bengaluru, India. Working towards creating meaningful software that 
-            is meant for betterment of mankind.
+            based in Bengaluru, India. Working towards creating meaningful
+            software that aims to enhance the well-being of humanity.
           </p>
           <Link
             to="portfolio"
@@ -49,11 +51,11 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={35} className="animate-bounce" fill="#fbbf24"/>
+          <HiArrowDown size={35} className="animate-bounce" fill="#fbbf24" />
         </Link>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;
