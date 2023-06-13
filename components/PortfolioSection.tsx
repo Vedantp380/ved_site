@@ -5,27 +5,28 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const portfolios = [
   {
-    name: "Enhanced photocatalytic properties of a chemically modified blue phosphorene",
-    description:
-      "This research explores sulphur-doped blue-phosphorene sheets for efficient water splitting, revealing promising catalysts with superior hydrogen evolution potential.",
-    github: "",
-    image: "/phosphorene.JPG",
-    link: "https://pubs.rsc.org/en/content/articlehtml/2021/ra/d0ra10829d",
-  },
-  {
-    name: "Small Social Media",
-    description: "It is repo of small social media app built on top of redux.",
-    image: "/small_social_media.JPG",
-    github: "https://github.com/ProPhycient5/redux_essential_official",
-    link: "https://redux-essential-official-sawan.vercel.app/",
-  },
-  {
     name: "Hacker-News-Clone",
     description:
       "It is a clone of hacker news website integrated with open API.",
     image: "/my_gif.gif",
     github: "https://github.com/ProPhycient5/Hacker-News-Clone",
     link: "https://hacker-news-clone-sawan.vercel.app/",
+  },
+  {
+    name: "Post it",
+    description: "It is a small social media app where you can post and react 😀",
+    image: "/small_social_media.JPG",
+    github: "https://github.com/ProPhycient5/redux_essential_official",
+    link: "https://redux-essential-official-sawan.vercel.app/",
+  },
+
+  {
+    name: "Enhanced photocatalytic properties of a chemically modified blue phosphorene",
+    description:
+      "This research explores sulphur-doped blue-phosphorene sheets for efficient water splitting, revealing promising catalysts with superior hydrogen evolution potential.",
+    github: "",
+    image: "/phosphorene.JPG",
+    link: "https://pubs.rsc.org/en/content/articlehtml/2021/ra/d0ra10829d",
   },
 ];
 

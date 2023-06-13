@@ -15,6 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+ 
       <body className="dark:bg-stone-900 font-serif">
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
