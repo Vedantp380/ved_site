@@ -19,7 +19,7 @@ const HeroSection = () => {
         </div>
         <div className="md:mt-2 md:w-3/5 md:pl-24 lg:pl-12 flex flex-col justify-center items-center md:items-start ">
           <h1 className="font-bold text-3xl mt-6 md:mt-0 md:text-5xl">
-            Hi, I&#39;m Sawan!
+            Hi, I&#39;m Vedant!
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
