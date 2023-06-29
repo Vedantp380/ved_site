@@ -10,11 +10,11 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-6 py-16 sm:py-32 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2 ">
           <Image
-            src="/square.jpeg"
+            src="/self.jpeg"
             alt="sawan"
             width={325}
             height={200}
-            className="rounded-full shadow-2xl"
+            className="full shadow-2xl"
           />
         </div>
         <div className="md:mt-2 md:w-3/5 md:pl-24 lg:pl-12 flex flex-col justify-center items-center md:items-start ">
@@ -24,10 +24,9 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-extrabold text-transparent w-max bg-[conic-gradient(from_var(--angle)_at_50%_100%,hsl(46deg_97%_65%),hsl(38deg_92%_50%),hsl(26deg_90%_37%),hsl(38deg_92%_50%),hsl(46deg_97%_65%))] animate-fancy bg-clip-text">
-              Software Engineer{" "}
+              Data Analytics Consultant.{" "}
             </span>
-            from Bengaluru, India. Working towards creating meaningful software
-            that aims to enhance the well-being of humanity.
+            From Data Chaos to Insights Brilliance: Empowering Your Business with Vedant, the Data Maestro!
           </p>
           <Link
             to="portfolio"

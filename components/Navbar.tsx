@@ -38,7 +38,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between py-3 sm:py-4 md:py-1">
             <div className="md:py-5 md:block">
               <h2 className="font-bold text-5xl text-transparent w-max bg-[conic-gradient(from_var(--angle)_at_50%_100%,hsl(47deg_89%_72%),hsl(38deg_92%_50%),hsl(14deg_100%_40%),hsl(38deg_92%_50%),hsl(47deg_89%_72%))] animate-fancy bg-clip-text">
-                SKD
+                VP
               </h2>
             </div>
             <div className="md:hidden">

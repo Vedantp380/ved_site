@@ -7,17 +7,12 @@ import { HiArrowDown } from "react-icons/hi";
 import { Link as Linki } from "react-scroll/modules";
 
 const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
   "Python",
-  "React",
-  "Redux",
-  "Next.js",
-  "Tailwind CSS",
-  "Git",
-  "GitHub",
+  "Azure Databricks",
+  "Azure Data Factory",
+  "Azure Logic Apps",
+  "Azure Data Storages",
+  "My SQL"
 ];
 
 const AboutSection = () => {
@@ -32,52 +27,32 @@ const AboutSection = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 md:mr-4 tracking-wide">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              Discover My Story!
+             Let's start a Q&A about Vedant Pandey.
             </h1>
             <p>
-              Hi, this is Sawan Kumar Das and I am a{" "}
-              <span className="font-bold text-amber-500">{"passionate "}</span>,
-              <span className="font-bold text-amber-500">{" curious "}</span>
-              and
-              <span className="font-bold text-amber-500">{" driven"}</span>{" "}
-              Software Engineer. With a background in Computational Physics, my
-              journey into software engineering has been transformative.
+           Q:  Who is Vedant Pandey?{""}
+            {/* {" "} */}
+              {/* <span className="font-bold text-amber-500">{"passionate "}</span>, */}
+              {/* <span className="font-bold text-amber-500">{" curious "}</span> */}
+              
+              {/* <span className="font-bold text-amber-500">{" driven"}</span>{" "} */}
+              <br/>A: Vedant is a passionate and ambitious individual with a degree in Electronics and Communication Engineering from BIT Mesra. They have a strong interest in technology and specialize in data science and software engineering.
+              </p>
+              <br/>
+              <p>
+               Q: What professional experiences have Vedant Pandey have?
+               <br/> A: Vedant began their professional journey as a Data Science intern at MakeMyTrip, where they gained valuable experience in analyzing and interpreting data to drive business insights. They then transitioned to the role of a Trainee Software Engineer at Mantra Labs, contributing to the development of software solutions. Currently, Vedant serves as a Data Engineer at Arcadis, specializing in designing and optimizing data pipelines and systems.
+            </p>
+            <br/>
+            <p>
+            Q: What are Vedant's personal qualities?
+            <br/>A: Vedant is a lifelong learner, always eager to stay up-to-date with the latest advancements in technology. They possess a collaborative spirit, enjoying working with others in a team environment. With their diverse skill set in data science and software engineering, Vedant is determined to make a meaningful impact in the tech industry.
             </p>
             <br />
-            <p>
-              After completing my master&apos;s degree in Computational Physics
-              from the Central University of Punjab, Bathinda, I delved into
-              research on low-dimensional materials at CSIR-NCL, resulting in my
-              <Link
-                className="underline hover:text-amber-500 cursor-pointer"
-                href="https://pubs.rsc.org/en/content/articlehtml/2021/ra/d0ra10829d"
-                target="_blank"
-              >
-                &nbsp;first published paper
-              </Link>
-              .
-            </p>
-            <br />
-            <p>
-              However, life took an unexpected turn when my plans to pursue a
-              PhD in France were derailed due to the global pandemic. It was
-              during this time that I discovered my hidden passion for
-              programming and decided to embrace it fully by transitioning into
-              the field of software engineering.
-            </p>
-            <br />
-            <p>
-              I believe that you should{" "}
-              <span className="font-bold text-amber-500">
-                never stop failing
-              </span>{" "}
-              and <span className="font-bold text-amber-500">growing </span>
-              which I strive to do. Outside of work, I explore new places,
-              indulge in cooking traditional{" "}
-              <span className="text-amber-500 font-extrabold">ଓଡ଼ିଆ </span>
-              (Odia) cuisine, and engage in dynamic training activities. Join me
-              on this adventure! 😎
-            </p>
+          <p>
+          Q: How does Vedant approach their professional journey?
+          <br/> A: Vedant approaches their professional journey with passion and ambition. They thrive on new challenges and opportunities for growth. With a strong foundation in data science and software engineering, Vedant embraces every adventure with enthusiasm, seeking to make a lasting impact in the ever-evolving world of technology.
+          </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
@@ -94,11 +69,11 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/frontend_guy.png"
+              src="/giphy.gif"
               alt="cartoon_vector"
               width={400}
               height={500}
-              className="hidden md:block md:relative md:bottom-4 md:z-0 md:mt-8"
+              className="hidden md:block md:relative md:bottom-4 md:z-0 md:mt-20 "
             />
           </div>
         </div>

@@ -5,25 +5,25 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const portfolios = [
   {
-    name: "Hacker-News-Clone",
+    name: "Network-Rail Cost Intelligence",
     description:
-      "It is a clone of hacker news website integrated with open API.",
+      "Efficient Data Extraction, Transformation, and Loading Pipeline leveraging Azure Databricks, Blob Storage, Power Automate, and Data Factory.",
     image: "/my_gif.gif",
-    github: "https://github.com/ProPhycient5/Hacker-News-Clone",
+    // github: "https://github.com/ProPhycient5/Hacker-News-Clone",
     link: "https://hacker-news-clone-sawan.vercel.app/",
   },
   {
-    name: "Post it",
-    description: "It is a small social media app where you can post and react 😀",
+    name: "Pounds In The Ground",
+    description: "Streamlined ETL Workflow using Azure Databricks for Python, Azure Blob Storage for file retrieval, Power Automate for SharePoint to Blob copying, Azure Data Factory for scheduled execution, and Error Notification via Azure Logic Apps",
     image: "/small_social_media.JPG",
-    github: "https://github.com/ProPhycient5/redux_essential_official",
+    // github: "https://github.com/ProPhycient5/redux_essential_official",
     link: "https://redux-essential-official-sawan.vercel.app/",
   },
 
   {
-    name: "Enhanced photocatalytic properties of a chemically modified blue phosphorene",
+    name: "Data Quality Assessment Tool",
     description:
-      "This research explores sulphur-doped blue-phosphorene sheets for efficient water splitting, revealing promising catalysts with superior hydrogen evolution potential.",
+      "Efficient Data Quality Assessment Tool: Utilizing Azure Blob Storage for file management, React Frontend for user-friendly file uploads, Python scripting for accurate calculations, Azure Web App Service for seamless deployment, and GitHub for continuous integration and deployment (CI/CD) pipeline.",
     github: "",
     image: "/phosphorene.JPG",
     link: "https://pubs.rsc.org/en/content/articlehtml/2021/ra/d0ra10829d",
