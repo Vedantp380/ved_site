@@ -27,7 +27,7 @@ const AboutSection = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 md:mr-4 tracking-wide">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-             Let's start a Q&A about Vedant Pandey.
+             Let&apos;s start a Q&A about Vedant Pandey.
             </h1>
             <p>
            Q:  Who is Vedant Pandey?{""}
@@ -45,7 +45,7 @@ const AboutSection = () => {
             </p>
             <br/>
             <p>
-            Q: What are Vedant's personal qualities?
+            Q: What are Vedant&apos;s personal qualities?
             <br/>A: Vedant is a lifelong learner, always eager to stay up-to-date with the latest advancements in technology. They possess a collaborative spirit, enjoying working with others in a team environment. With their diverse skill set in data science and software engineering, Vedant is determined to make a meaningful impact in the tech industry.
             </p>
             <br />
